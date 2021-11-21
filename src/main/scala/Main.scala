@@ -16,3 +16,7 @@ val day = i match
   case 5 => "Friday"
   case 6 => "Saturday"
   case _ => "invalid day"
+
+class Person(var name: String, var age: Int)
+
+val p = Person("John", 30)
